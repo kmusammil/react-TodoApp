@@ -1,0 +1,57 @@
+body{
+    background: rgb(235, 218, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 250px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.input-box{
+    position: relative;
+}
+.input-box input{
+    outline: none;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: grey;
+}
+
+.plus-icon{
+    color: rgb(238, 186, 123);
+    font-size: larger;
+    position: absolute;
+    right: 35px;
+    transform: translateY(50%);
+    transition: 1s color;
+    cursor: pointer;
+}
+.plus-icon:hover{
+    color: rgb(235, 159, 67);
+}
+
+.task{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task p{
+    margin: 10px 10px;
+}
+.delete-icon{
+    color: rgb(235, 111, 111);
+    font-size: 15px;
+    cursor: pointer;
+    transition: 1s color;
+}
+.delete-icon:hover{
+    color: rgb(238, 71, 71);
+}
